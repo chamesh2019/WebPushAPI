@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -17,6 +18,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     "rest_framework",
+    "Notification",
 ]
 
 MIDDLEWARE = [
@@ -72,13 +74,15 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 LANGUAGE_CODE = "en-us"
-
 TIME_ZONE = "UTC"
-
 USE_I18N = True
-
 USE_TZ = True
 
 STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+VAPID_PUBLIC_KEY = "BLWibKYf78O_trFdMew3SmmI0elBxByRzRS8eguppHvgp4MtqeVBPrYWscVQ-OgUVyVWM9aYoivNe48oVPpd-NM"
+VAPID_PRIVATE_KEY = "PCwU6Wzd1hZ1Ald9LW50ut_QF0XGVC4sucU8ditwS5c"
+
+APPEND_SLASH = False

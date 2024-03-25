@@ -1,0 +1,32 @@
+{
+    "name": "PMV Attendance",
+    "description": "Attendance Management System",
+    "theme_color": "#0A0302",
+    "background_color": "#1b1b1b",
+    "display": "standalone",
+    "scope": "/",
+    "orientation": "any",
+    "start_url": "/",
+    "status_bar_color": "default",
+    "icons": [
+        {
+            "src": "/static/images/icon-144x144.png",
+            "sizes": "144x144"
+        }
+    ],
+    "icons_apple": [
+        {
+            "src": "/static/images/icon-144x144.png",
+            "sizes": "144x144"
+        }
+    ],
+    "splash_screen": [
+        {
+            "src": "/static/images/icon.png",
+            "media": "(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+        }
+    ],
+    "dir": "ltr",
+    "lang": "en-US",
+    "author": "PMV Team"
+}
